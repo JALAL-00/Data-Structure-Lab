@@ -23,15 +23,15 @@ int main()
    {
       for(j=0; j<n; j++)
       {
-         if(arr1[i]!=arr2[j])
+         if(arr1[i]==arr2[j])
          {
             com = 0;
             for(x=0; x<k; x++)
             {
-               if(arr1[i]!=arr3[x])
+               if(arr1[i]==arr3[x])
                   com++;
             }
-            if(com!=0)
+            if(com==0)
             {
                arr3[k] = arr1[i];
                k++;
@@ -39,7 +39,7 @@ int main()
          }
       }
    }
-   cout<<"\nThe UnCommon Elements are: ";
+   cout<<"\nThe Common Elements are: ";
    for(i=0; i<k; i++)
       cout<<arr3[i]<<" ";
 
