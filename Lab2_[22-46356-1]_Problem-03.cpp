@@ -1,4 +1,4 @@
-//2. Initialize 2 integer type arrays with different sizes and make a new array with the common elements between them.
+//3. Initialize 2 integer type arrays with different sizes and make a new array with the UnCommon elements between them.
 
 #include<iostream>
 using namespace std;
