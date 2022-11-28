@@ -8,7 +8,7 @@ private:
 public:
 
     bool isFull(){
-       if ((front == 0 && rear == 4) || (front == rear+1)) {
+       if ((rear+1)%5==front) {
       return true;
     }
     else return false;
